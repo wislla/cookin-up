@@ -1,39 +1,54 @@
-# cookin-up
+# 🍳 Cookin' Up
+Cookin' Up é uma aplicação desenvolvida como parte da formação em Vue.js da Alura, com o objetivo de explorar e praticar os principais conceitos do framework Vue 3.
+Durante o desenvolvimento, foram aplicados conceitos fundamentais como:
 
-This template should help get you started developing with Vue 3 in Vite.
+   - Reatividade
+   - Diretivas
+  -  Comunicação entre componentes (props e emits)
+   - Métodos do ciclo de vida
+   - Organização e reutilização de componentes
 
-## Recommended IDE Setup
+     ![image](https://github.com/user-attachments/assets/b1673561-b20f-4c3e-9a6d-e27ebaac38d8)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+     ![image](https://github.com/user-attachments/assets/f3b49101-df35-4d41-b572-327e22194778)
 
-## Type Support for `.vue` Imports in TS
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
 
-## Customize configuration
+O projeto representa uma introdução prática à criação de aplicações Vue 3 do zero, com uma estrutura moderna baseada em Vite, TypeScript e boas práticas de desenvolvimento.
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+# 🛠️ Tecnologias e Ferramentas
 
-## Project Setup
+   - Vue.js 3
+   - TypeScript
+   - Vite
+   - ESLint + Prettier
+   - Vue TSC
+# 🚀 Como rodar o projeto localmente
 
-```sh
+- Instale as dependências
+```
 npm install
 ```
 
-### Compile and Hot-Reload for Development
-
-```sh
+- Execute o projeto em ambiente de desenvolvimento
+```
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+# 🧱 Como buildar para produção
+- Gerar o build otimizado
 
-```sh
+```
 npm run build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
+# 🔍 Análise e qualidade do código
+- Rodar ESLint com correção automática
+```
 npm run lint
+```
+
+- Formatar o código com Prettier
+```
+npm run format
 ```
