@@ -49,11 +49,6 @@ const emit = defineEmits<{
       <p class="paragrafo-lg receitas-nao-encontradas__info">
         Ops, não encontramos resultados para sua combinação. Vamos tentar de novo?
       </p>
-
-      <img
-        src="../assets/imagens/sem-receitas.png"
-        alt="Desenho de um ovo quebrado. A gema tem um rosto com uma expressão triste."
-      />
     </div>
 
     <BotaoPrincipal texto="Editar lista" @click="emit('editarReceitas')" />
